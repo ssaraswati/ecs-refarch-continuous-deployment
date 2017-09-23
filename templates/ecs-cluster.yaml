@@ -1,11 +1,11 @@
 Parameters:
   InstanceType:
     Type: String
-    Default: t2.micro
+    Default: t2.nano
 
   ClusterSize:
     Type: Number
-    Default: 1
+    Default: 2
 
   Subnets:
     Type: List<AWS::EC2::Subnet::Id>
